@@ -68,30 +68,39 @@ In order to add any of the objects, make a right click on the corresponding labe
 Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 
 • add slow.lib with a label Slow or any identifier of your own.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/456faf9d-cdb5-40ba-94db-4cdc75adf009" />
+
+
 
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/456faf9d-cdb5-40ba-94db-4cdc75adf009" />
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="853" height="485" alt="image" src="https://github.com/user-attachments/assets/0a406dc9-2f08-4d02-ba39-a97bc49fdea5" />
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="821" height="461" alt="image" src="https://github.com/user-attachments/assets/c3f8eecb-5244-42b6-9a4d-d67ead4622dc" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="821" height="465" alt="image" src="https://github.com/user-attachments/assets/2d1e6b22-eb12-48b0-b427-c8c382085525" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/ed23dd3a-698d-46b5-b298-cf9eb2af47fd" />
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/25293502-e569-4759-940a-6e7ce346d068" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -106,6 +115,7 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+![WhatsApp Image 2025-11-23 at 15 13 27_d9163e42](https://github.com/user-attachments/assets/901c77bf-2461-47a1-bbe7-4a877802923c)
 
 ### Fig.8 Core area
 
@@ -126,6 +136,7 @@ In the Import Design window click the save option to save the Default.globals fi
 3. Channel Spacing between Core Boundary to IO Boundary
  
 • Select Floorplan → Specify Floorplan to modify/add concerned values to the above Factors. On adding/modifying the concerned values, the core area is also modified.
+<img width="872" height="461" alt="image" src="https://github.com/user-attachments/assets/1d3df855-8450-421a-9b47-cd7ea777adf3" />
 
 ### Fig.9 Specify Floorplan 
 
@@ -170,6 +181,7 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 • To perform Special Route, Select Route → Special Route → Add Nets → OK. 
 
 • After the Special Route is complete, all the Standard Cell Rows turn to the Color coded for Metal 1 
+![WhatsApp Image 2025-11-23 at 15 17 54_dc216f18](https://github.com/user-attachments/assets/57528e9e-0da5-4164-8278-1de4c28acd19)
 
 ### Fig.10 Power plan 
 
@@ -182,10 +194,12 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 2. Select Place → Place Standard Cell → Run Full Placement → Mode → Enable ‘Place I/O Pins’ → OK → OK .
    
 • All the Standard Cells and Pins are placed as per the communication between them, i.e., Two communicating Cells are placed as close as possible so that shorter Net lengths can be used for connections as Shorter Net Lengths enable Better Timing Results.
+![WhatsApp Image 2025-11-23 at 15 21 55_81f6246b](https://github.com/user-attachments/assets/49669fdb-c818-4f18-b150-4e34d03bbd24)
 
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+![WhatsApp Image 2025-11-23 at 15 26 37_1736a62f](https://github.com/user-attachments/assets/de4fa3fc-8043-4d0a-83f7-74d165c5b1fa)
 
 ## Result
 
